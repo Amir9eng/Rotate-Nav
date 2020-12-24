@@ -56,6 +56,33 @@ body {
   transform-origin: top left;
   transform: rotate(90deg);
 }
+nav {
+  position: fixed;
+  left: 0;
+  bottom: 40px;
+  z-index: 100;
+}
+nav ul li {
+  text-transform: uppercase;
+  margin: 40px 0;
+  color: #ffff;
+  transform: translateX(-100%);
+}
 .content img {
   max-width: 100%;
+}
+.content {
+  max-width: 1000px;
+  margin: 50px auto;
+}
+.content h1 {
+  margin: 0;
+}
+.content small {
+  color: #555555;
+  font-style: italic;
+}
+.content p {
+  color: #333333;
+  line-height: 1.5;
 }
